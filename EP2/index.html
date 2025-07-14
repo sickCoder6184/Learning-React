@@ -7,6 +7,7 @@
     <title>Namaste React</title>
   </head>
   <body>
+    <h1>This is Me!!!</h1>
     <div id="root">
       <!-- if there will we anything it wil be replaced by render method written in App.js -->
     </div>
@@ -20,6 +21,7 @@
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
 
-    <script src="./App.js"></script>
+    <script type="module" src="./App.js"></script> 
+    <!-- Need to tell type or it will give error as Browser does not have import  -->
   </body>
 </html>
