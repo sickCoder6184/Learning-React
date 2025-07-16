@@ -77,7 +77,7 @@ const RestaurantList = () => (
       <Card key={index} data={item} />
     ))}
 
-    
+
   </div>
 );
 
