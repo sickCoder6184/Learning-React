@@ -1,0 +1,27 @@
+{
+  "name": "ep8",
+  "version": "1.0.0",
+  "description": "Class based Component",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sickCoder6184/Learning-React.git"
+  },
+  "author": "Prince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sickCoder6184/Learning-React/issues"
+  },
+  "homepage": "https://github.com/sickCoder6184/Learning-React#readme",
+  "devDependencies": {
+    "node": "^20.19.4",
+    "parcel": "^2.15.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "dependencies": {
+    "react-router": "^7.7.0"
+  }
+}
