@@ -1,0 +1,42 @@
+{
+  "name": "foodie-express",
+  "version": "1.0.0",
+  "description": "A food delivery app built with React",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "dev": "parcel index.html --open"
+  },
+  "keywords": [
+    "react",
+    "food-delivery",
+    "tailwindcss"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-postcss": "^2.8.3",
+    "autoprefixer": "^10.4.13",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
